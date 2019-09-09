@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(background.png);
+    background-image: url(img/background.png);
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -31,7 +31,7 @@ body {
 .logo {
     width: 266px;
     min-height: 147px;
-    background-image: url(palm.png);
+    background-image: url(img/palm.png);
     background-repeat: no-repeat;
     background-position: right bottom;
 }
