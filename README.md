@@ -1,1 +1,1 @@
-# https://olenapauk.github.io/AsiaHolidays/
+# olenapauk.github.io/AsiaHolidays
