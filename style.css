@@ -1,0 +1,181 @@
+@import url(reset.css);
+@font-face {
+    font-family: Tahoma;
+    src: url(Tahoma/Tahoma%20Regular%20font.ttf);
+}
+
+body {
+    background-image: url(background.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.container {
+    width: 60%;
+    min-height: 883px;
+    margin: 0 auto;
+    margin-top: 57px;
+}
+
+.header {
+    width: 100%;
+    min-height: 147px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 266px;
+    min-height: 147px;
+    background-image: url(palm.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.img_logo {
+    width: 263px;
+    height: 37px;
+    margin-top: 70px;
+}
+
+.figcaption_logo {
+    /*  width: 106px;*/
+    height: 11px;
+    color: #e6e6e6;
+    font-family: Tahoma;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+a {
+    height: 8px;
+    color: #e6e6e6;
+    font-family: Tahoma;
+    font-size: 8px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.img_contries {
+    border: 2px solid darkgrey;
+    margin: 0 auto;
+    /*    margin-top: 5%;*/
+    /*        transition: 0.5s;*/
+}
+
+.img_contries:hover {
+    border: 4px solid blanchedalmond;
+    transition: 0.4s;
+}
+
+.figcaption_contries {
+    height: 13px;
+    color: #e6e6e6;
+    font-family: Tahoma;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    transition: letter-spacing 0.8s ease;
+}
+
+.figcaption_contries:hover {
+    letter-spacing: 1px;
+}
+
+main {
+    width: 100%;
+    min-height: 431px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+footer {
+    width: 171px;
+    min-height: 11px;
+    color: #e6e6e6;
+    font-family: Tahoma;
+    font-size: 10px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 206px;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 80%;
+    }
+    .img_contries {
+        margin-top: 13%;
+        border: 4px solid dimgray;
+    }
+    a {
+        min-height: 15px;
+        color: bisque;
+        font-size: 15px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .figcaption_logo {
+        height: 15px;
+        font-size: 15px;
+    }
+    .figcaption_contries {
+        height: 18px;
+        font-size: 20px;
+        transition: letter-spacing 0.9s ease;
+    }
+    .img_contries:hover {
+        border: 5px solid burlywood;
+        transition: 0.4s;
+    }
+    .figcaption_contries:hover {
+        letter-spacing: 10px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .container {
+        width: 80%;
+    }
+    .img_contries {
+        margin-top: 10%;
+        border: 6px double dimgrey;
+    }
+    a {
+        min-height: 12px;
+        color: bisque;
+        font-size: 12px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .figcaption_logo {
+        height: 12px;
+        font-size: 12px;
+    }
+    .figcaption_contries {
+        height: 16px;
+        font-size: 17px;
+        transition: letter-spacing 0.9s ease;
+    }
+    .img_contries:hover {
+        border: 7px solid burlywood;
+        transition: 0.4s;
+    }
+    .figcaption_contries:hover {
+        letter-spacing: 6px;
+    }
+}
